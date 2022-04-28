@@ -48,7 +48,7 @@ def check_for_supporting_files(CITY_DATA, cwd):
 
     # Check the common working directory to ensure supporting files exist.
     print('Hello! Let\'s explore some US bikeshare data!')
-    print('Before starting, we need to make sure that the supoprting files exist.')
+    print('Before starting, we need to make sure that the supporting files exist.')
     print('The Python script and its supporting files must be in the same directory. \n')
     print(f'Checking {cwd} for supporting data (*.csv) files...\n')
     print('-'*40)
