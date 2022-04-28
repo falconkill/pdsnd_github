@@ -10,8 +10,6 @@ import time
 import pandas as pd
 import os
 
-# Settings
-pd.set_option('max_columns', None)
 
 # Global Constants
 cwd = os.getcwd()
