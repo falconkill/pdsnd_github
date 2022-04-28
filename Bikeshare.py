@@ -32,7 +32,7 @@ def check_for_supporting_files(CITY_DATA, cwd):
     """
     Ensures that csv files exist in the common working directory for Chicago,
     New York City and Washington. Returns a list of missing files to main if files
-    are not found.
+    are not found. Uses CITY DATA as a CONSATANT.
 
     Args:
         (dict) CITY_DATA - A dictionary of city to source file (*.csv)
