@@ -17,7 +17,7 @@ Python File: Bikeshare.py
 Supporting Files: chicago.csv, new_york_city.csv, washington.csv (not in repo)
 
 Minimum Configruation:
-anaconda 2020.07
+anaconda 2020.07 (optional)
 python 3.8.3 (time and os are part of standard python)
 pandas 1.0.5
 
