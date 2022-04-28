@@ -335,11 +335,13 @@ def trip_duration_stats(city, df_city_filtered):
 
     # display total travel time
     total_travel_time = df_city_filtered['Trip Duration'].sum()
+    # convert travel time to hours
     total_travel_time_hours = total_travel_time / 60 / 60
     print('Total Travel Time --> {:.2f} hours'.format(total_travel_time_hours))
 
     # display mean travel time
     mean_travel_time = df_city_filtered['Trip Duration'].mean()
+    # convert travel time to minutes
     mean_travel_time_mins = mean_travel_time / 60
     print('Mean Travel Time --> {:.2f} minutes'.format(mean_travel_time_mins))
 
