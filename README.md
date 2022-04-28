@@ -14,7 +14,7 @@ installed to execute this file.
 ### Files used
 All files should be stored in the same directory on the user's system.
 Python File: Bikeshare.py
-Supporting Files: chicago.csv, new_york_city.csv, washington.csv
+Supporting Files: chicago.csv, new_york_city.csv, washington.csv (not in repo)
 
 Minimum Configruation:
 anaconda 2020.07
